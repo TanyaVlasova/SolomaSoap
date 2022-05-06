@@ -1,0 +1,21 @@
+.wrapper{
+
+}
+
+.button{
+    height: 4rem;
+    width: 17rem;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    background: #cab2b1;
+}
+
+.button:hover{
+    background: #b59f9f;
+}
+
+.button:active{
+    background: #e6caca;
+}

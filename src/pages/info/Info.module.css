@@ -1,0 +1,43 @@
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+}
+
+.container{
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+}
+
+.text{
+    margin: auto;
+    width: 50vw;
+    min-height: 40vh;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    text-align: justify;
+}
+
+.imageBlock{
+    width: 30vw;
+    display: flex;
+    margin: auto;
+}
+
+.image{
+    width: 100%;
+    border-radius: 2rem;
+}
+
+@media all and (max-width: 768px){
+    .container{
+        flex-direction: column;
+    }
+    .text{
+        width: 80vw;
+        margin: 0 auto 3rem;
+    }
+    .imageBlock{
+        width: 80vw;
+    }
+}

@@ -1,0 +1,46 @@
+.wrapper{
+    height: 30vh;
+}
+
+.image{
+    height: 20vmin;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    height: 100%;
+}
+
+.menu{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    height: 80%;
+}
+li{
+    margin: auto 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
+
+@media all and (max-width: 768px){
+    .wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
+    ul{
+        flex-direction: column;
+        margin: auto 0;
+    }
+    li{
+        text-align: center;
+    }
+    .image{
+        margin: auto 2rem;
+    }
+}

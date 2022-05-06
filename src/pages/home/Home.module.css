@@ -1,0 +1,135 @@
+.wrapper{
+
+}
+
+
+.firstSection{
+    height: 70vh;
+}
+.imageFirstSection{
+    height: 50vh;
+    background: url('../../assets/homeImages/mainImage.jpg') center fixed no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.containerFirstSection{
+    height: 35vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.textFirstSection{
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.buttonFirstSection{
+    height: 4rem;
+    width: 17rem;
+
+}
+
+
+.secondSection{
+    min-height: 100vh;
+    display: flex;
+}
+.containerSecondSection{
+    width: 90%;
+    margin: auto auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.itemSecondSection{
+    width: 24vw;
+    margin: 2rem auto;
+}
+
+
+.thirdSection{
+    min-height: 100vh;
+    display: flex;
+}
+.containerThirdSection{
+    width: 90%;
+    margin: auto auto;
+    display: flex;
+    justify-content: space-around;
+}
+.blockThirdSection{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto 0;
+}
+.aboutTextThirdSection{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.authorTextThirdSection{
+    letter-spacing: 0.2rem;
+}
+.buttonThirdSection{
+    height: 4rem;
+    width: 17rem;
+}
+.imageBlockThirdSection{
+    width: 30vw;
+}
+.imageThirdSection{
+    width: 100%;
+    border-radius: 2rem;
+}
+
+
+@media all and (max-width: 768px){
+    .containerSecondSection{
+        flex-direction: column;
+    }
+    .itemSecondSection{
+        width: 80vw;
+        margin: 2rem auto;
+    }
+    .containerThirdSection{
+        width: 80vw;
+        flex-direction: column;
+        margin: 6rem auto;
+    }
+    .blockThirdSection{
+        margin-bottom: 6rem;
+    }
+    .imageBlockThirdSection{
+        width: 80vw;
+        margin: auto auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

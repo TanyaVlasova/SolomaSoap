@@ -1,0 +1,61 @@
+.wrapper{
+    width: 20vw;
+    min-height: 25vw;
+    margin-bottom: 2rem;
+}
+
+.image{
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.text{
+    text-align: center;
+}
+
+.product{
+    margin: 1rem auto 0.5rem auto;
+}
+
+.price{
+
+}
+
+.image:hover{
+    opacity: .7;
+}
+
+@media all and (max-width: 992px){
+    .wrapper{
+        width: 25vw;
+        min-height: 30vw;
+    }
+    .image{
+        width: 25vw;
+        height: 25vw;
+    }
+}
+
+@media all and (max-width: 768px){
+    .wrapper{
+        width: 35vw;
+        min-height: 40vw;
+    }
+    .image{
+        width: 35vw;
+        height: 35vw;
+    }
+}
+
+@media all and (max-width: 576px){
+    .wrapper{
+        width: 70vw;
+        min-height: 90vw;
+    }
+    .image{
+        width: 70vw;
+        height: 70vw;
+    }
+}

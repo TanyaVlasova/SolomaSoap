@@ -1,0 +1,13 @@
+.wrapper{
+    text-align: center;
+    font-size: 2rem;
+}
+
+p{
+    margin: 1rem;
+}
+
+span{
+    font-weight: bold;
+    font-size: 3rem;
+}

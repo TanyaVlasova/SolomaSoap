@@ -1,0 +1,25 @@
+.wrapper{
+    width: 100%;
+    display: inline-block;
+}
+
+.product{
+    font-size: 1.3rem;
+    height: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+.image{
+    width: 100%;
+    margin: 2rem auto;
+    border-radius: 2rem;
+}
+
+.productDescription{
+    font-size: 1.3rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+

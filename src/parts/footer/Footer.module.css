@@ -1,0 +1,62 @@
+.wrapper{
+    height: 20vh;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mail{
+    width: 25vmax;
+    text-align: left;
+    margin: auto 0;
+    line-height: 1.5rem;
+}
+
+span{
+    font-weight: bold;
+}
+
+.handmade{
+    width: 30vmax;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    margin: auto 0;
+}
+
+.socialNetwork{
+    width: 25vmax;
+    text-align: right;
+    margin: auto 0;
+    font-weight: bold;
+}
+
+.link{
+    margin-bottom: 1rem;
+}
+
+.icon{
+    width: 3rem;
+}
+
+@media all and (max-width: 576px){
+    .wrapper{
+        height: 50vh;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .mail,
+    .handmade,
+    .socialNetwork{
+        margin: 0 auto;
+        text-align: center;
+    }
+}
